@@ -10,7 +10,7 @@ package game
 	import starling.events.Event;
 	
 	/**
-	 * ...
+	 * The Game class.
 	 * @author Daniel
 	 */
 	public class ChaoticFrenzy extends Sprite
@@ -38,6 +38,11 @@ package game
 			addEventListener(Event.ENTER_FRAME, onEnterFrame);
 		}
 		
+		/**
+		 * Called once per frame to update the game.
+		 * @param	event			
+		 * @param	passedTime
+		 */
 		private function onEnterFrame(event:Event, passedTime:Number):void
 		{
 			levelManager.tick(passedTime);

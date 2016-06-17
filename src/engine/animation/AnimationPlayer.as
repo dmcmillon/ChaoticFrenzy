@@ -2,17 +2,19 @@ package engine.animation
 {
 	import starling.events.EventDispatcher;
 	/**
-	 * ...
+	 * Plays animations.
 	 * @author Daniel
 	 */
 	public class AnimationPlayer extends EventDispatcher
 	{
+		//Event that is dispatched when an animation has completed.
 		public static const ANIMATION_COMPLETE:String = "animationComplete";
 		
 		private var _currentAnimation:Animation;
 		
 		private var _animations:Vector.<Animation>;
 		
+		//
 		private var _idleAnimation:Animation;
 		
 		public function AnimationPlayer() 

@@ -1,7 +1,7 @@
 package game 
 {
 	/**
-	 * ...
+	 * Static class that maintains the current score for the player
 	 * @author Daniel
 	 */
 	public class Score 
@@ -17,11 +17,5 @@ package game
 		{
 			return _score;
 		}
-		
-		public function Score() 
-		{
-			
-		}
-		
 	}
 }

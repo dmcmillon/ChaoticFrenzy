@@ -10,12 +10,14 @@ package
 	
 	import game.ChaoticFrenzy;
 	/**
-	 * ...
+	 * Entry class for the game.
 	 * @author Daniel
 	 */
 	public class Main extends Sprite 
 	{
-		
+		/**
+		 * Initializes the screen dimensions and viewport and starts the game.
+		 */
 		public function Main() 
 		{
 			var screenWidth:Number = stage.fullScreenWidth;

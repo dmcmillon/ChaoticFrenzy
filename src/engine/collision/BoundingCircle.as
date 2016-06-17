@@ -14,8 +14,6 @@ package engine.collision
 		{
 			_center = center;
 			_radius = radius;
-		}
-		
+		}	
 	}
-
 }

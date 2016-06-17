@@ -1,7 +1,7 @@
 package engine.animation 
 {
 	/**
-	 * ...
+	 * 
 	 * @author Daniel
 	 */
 	public interface Transition 

@@ -3,7 +3,8 @@ package engine.event
 	import starling.events.Event;
 	
 	/**
-	 * ...
+	 * Interface of Starling's EventDispatcher class. It's used so that other interfaces can extend it, 
+	 * forcing classes that implement those other interfaces to be EventDispatchers also. 
 	 * @author Daniel
 	 */
 	public interface IEventDispatcher 
@@ -33,5 +34,4 @@ package engine.event
         function hasEventListener(type:String):Boolean;
    
 	}
-	
 }

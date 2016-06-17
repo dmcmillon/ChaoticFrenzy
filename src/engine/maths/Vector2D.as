@@ -59,5 +59,10 @@ package engine.maths
 		{
 			return x * x + y * y;
 		}
+		
+		public function toString():String
+		{
+			return "X: " + x.toString() + ", Y: " + y.toString();
+		}
 	}
 }

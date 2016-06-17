@@ -11,5 +11,4 @@ package engine.objectpool
 		function release():void;
 		function take():void;
 	}
-	
 }
